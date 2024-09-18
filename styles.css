@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Inter;
+}
+
+body{
+    background: hsl(0, 0%, 8%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+}
+
+.content-container{
+    background-color: hsl(0, 0%, 12%);
+    height: 34em;
+    width: 21em;
+    border-radius: 10em;
+}
+
+.inner-container {
+    width: 100%;
+    height: 100%;
+    padding: 1.5em; 
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: .7em
+}
+.profile-picture{
+    border-radius: 10em;
+    height: 5em;
+}
+.user-name{
+    color: white;
+    font-weight: 400;
+    margin: 1em .25em .25em .25em;
+    font-size: 1.5em;
+}
+.user-location{
+    color: hsl(75, 94%, 57%);
+    font-size: .85em;
+    margin: .25em;
+    font-weight: 600;
+}
+
+.user-bio{
+    color: white;
+    font-weight: 200;
+    font-size: .80em;
+    margin: 1.5em;
+}
+.link-button{
+    color: white;
+    background: hsl(0, 0%, 20%);
+    border: none;
+    width: 100%;
+    border-radius: .5em;
+    height: 5em;
+    font-weight: 700;
+    margin: .6em;
+}
+.link-button:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+}
